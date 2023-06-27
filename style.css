@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Shrikhand&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+body{
+    font-family: 'Lobster', cursive;
+    font-family: 'Shrikhand', cursive;
+    background-image: url(background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    color:white;
+}
+.images{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* background-color: aqua; */
+    box-shadow: 0 0 0.5 red;
+}
+.image{
+    width: 20rem;
+    border: 2px solid black;
+    height: 22rem;
+    border-radius: 90px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    box-shadow: 0 0 14 red;
+
+}
+.image:hover{
+    transform: scale(1.04,1.04);
+}
